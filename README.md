@@ -60,7 +60,7 @@ eth! works offline. It only goes online for the things below, and you can see th
 |---|---|---|
 | **osu!direct**, only while you search, browse or download | Search and beatmap pages: `api.nerinyan.moe` (fallback `catboy.best`)<br>Downloads: `api.nerinyan.moe`, then `catboy.best`, then `osu.direct`<br>Cover pictures: `assets.ppy.sh`<br>Song previews: `b.ppy.sh` | Your search text, filters and beatmap IDs |
 | **Setup wizard**, only if you press "download beatmaps" | The same beatmap mirrors as osu!direct | Beatmap IDs |
-| **Update checks**: on start and every 30 minutes (if automatic checks are on), or when you click check | GitHub: `api.github.com`, `github.com` and GitHub's download servers | A normal request for eth!'s latest release |
+| **Update checks**: once when eth! starts (if automatic checks are on), or when you click check | GitHub: `api.github.com`, `github.com` and GitHub's download servers | A normal request for eth!'s latest release |
 | **Update downloads**, only when you choose **Update now** | GitHub's download servers | Nothing beyond the download request |
 | **Links you click** | Open in your browser, not in eth! (eth!'s GitHub release pages, the osu!lazer download page) | n/a |
 
@@ -73,6 +73,8 @@ eth! works offline. It only goes online for the things below, and you can see th
 3. If Windows SmartScreen warns about an unrecognised app (the installer isn't code-signed yet), choose **More info → Run anyway**.
 
 Your profiles, scores and settings live in `%APPDATA%\osu-offline`, so updating or reinstalling never touches them.
+
+**Uninstalling** (Windows Settings → Apps → eth!) removes everything eth! created: the game, shortcuts, profiles, scores, beatmaps, settings, logs and temporary files. Back up `%APPDATA%\osu-offline` first if you want to keep anything.
 
 ## Thank you, osu!lazer ♥
 
