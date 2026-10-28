@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/nxtethereal/eth-releases/releases"><b>⬇ Download eth! for Windows</b></a>
+  <a href="https://github.com/nxtethereal/eth/releases"><b>⬇ Download eth! for Windows</b></a>
 </p>
 
 ---
@@ -68,7 +68,7 @@ eth! works offline. It only goes online for the things below, and you can see th
 
 ## Install
 
-1. Open the [latest release](https://github.com/nxtethereal/eth-releases/releases) and download **`eth-win-Setup.exe`**.
+1. Open the [latest release](https://github.com/nxtethereal/eth/releases) and download **`eth-win-Setup.exe`**.
 2. Run it and pick where to install. The recommended folder is filled in (`%LocalAppData%\eth`), or choose your own, like `C:\eth!`.
 3. If Windows SmartScreen warns about an unrecognised app (the installer isn't code-signed yet), choose **More info → Run anyway**.
 
