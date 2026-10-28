@@ -45,7 +45,7 @@ eth! is osu!lazer reworked to run entirely on your own PC. You play, earn pp and
 - A **Customisation** tab for theme colours, the logo, the menu background, and your own **opening song** and volume.
 
 ### Updates
-- eth! **updates itself** from this page. When a new version is out it asks: **Update now**, **See what's new**, or **Remind me later**, never mid-play.
+- eth! **updates itself** from this page. New versions download quietly and install the next time you start it. Prefer to be asked? Turn off automatic install and choose **Update now**, **See what's new** or **Remind me later**.
 - An **update indicator** on the toolbar, a **What's new** window after each update, and a toggle for automatic checks.
 
 ### Offline and private
@@ -61,7 +61,7 @@ eth! works offline. It only goes online for the things below, and you can see th
 | **osu!direct**, only while you search, browse or download | Search and beatmap pages: `api.nerinyan.moe` (fallback `catboy.best`)<br>Downloads: `api.nerinyan.moe`, then `catboy.best`, then `osu.direct`<br>Cover pictures: `assets.ppy.sh`<br>Song previews: `b.ppy.sh` | Your search text, filters and beatmap IDs |
 | **Setup wizard**, only if you press "download beatmaps" | The same beatmap mirrors as osu!direct | Beatmap IDs |
 | **Update checks**: once when eth! starts (if automatic checks are on), or when you click check | GitHub: `api.github.com`, `github.com` and GitHub's download servers | A normal request for eth!'s latest release |
-| **Update downloads**, only when you choose **Update now** | GitHub's download servers | Nothing beyond the download request |
+| **Update downloads**, in the background when an update is found (or only when you choose **Update now**, if automatic install is off) | GitHub's download servers | Nothing beyond the download request |
 | **Links you click** | Open in your browser, not in eth! (eth!'s GitHub release pages, the osu!lazer download page) | n/a |
 
 **eth! never:** signs in or uses an account, submits scores, connects to osu! game servers, chat or multiplayer, sends analytics, telemetry or crash reports, or sets a Discord status. Your profiles, scores and settings never leave your PC.
