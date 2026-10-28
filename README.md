@@ -2,24 +2,68 @@
   <img width="200" alt="eth! logo" src="assets/eth.png">
 </p>
 
-# eth! releases
+<h1 align="center">eth!</h1>
 
-Installers and automatic updates for **eth!**, a fully offline fork of osu!lazer with local profiles, separate Normal / Relax / Autopilot pp, ranked custom speed rates, osu!direct via mirrors and an ethereal black & white theme.
+<p align="center">
+  A fully offline fork of osu!lazer: your own profiles, your own pp, an ethereal black &amp; white look.<br>
+  <b>Beta.</b> Windows only.
+</p>
 
-## Install (Windows)
-
-1. Open the [latest release](https://github.com/nxtethereal/eth-releases/releases) and download **`eth-win-Setup.exe`**.
-2. Run it. eth! installs to `%LocalAppData%\eth` and adds an **eth!** shortcut to your desktop and Start menu.
-3. If Windows SmartScreen warns about an unrecognised app (the installer isn't code-signed), choose **More info → Run anyway**.
-
-eth! updates itself: it checks for new versions when it starts and offers to restart when one has downloaded. You can also check any time in **Settings → General → Updates**.
-
-Your profiles, scores and settings are kept in `%APPDATA%\osu-offline`, so reinstalling or updating never touches them.
-
-## Status
-
-eth! is in **beta**. Expect rough edges.
+<p align="center">
+  <a href="https://github.com/nxtethereal/eth-releases/releases"><b>⬇ Download eth! for Windows</b></a>
+</p>
 
 ---
 
-eth! is not affiliated with, endorsed by or supported by ppy or Akatsuki. "osu!" is a trademark of ppy Pty Ltd. Based on osu!lazer (MIT licence); osu! resources are CC-BY-NC 4.0.
+eth! is osu!lazer reworked to run entirely on your own PC. You play, earn pp and track your progress locally. There's no account, no osu! servers, and nothing is submitted anywhere.
+
+## Features
+
+### Profiles and pp
+- **Local profiles**, each with its own folder, profile picture and play history. Create, switch and delete them from the top right.
+- **Three pp totals** in the toolbar: **Normal**, **Relax** and **Autopilot**.
+  - Normal uses the official (bancho) formula.
+  - Relax uses Akatsuki's relax formula.
+  - Autopilot uses the standard formula with autopilot applied, as Akatsuki does.
+- Each play's pp is **saved when you set it**, so totals stay consistent.
+- An **Akatsuki-style profile page** with best plays, recent plays, grades, stats and a pp history graph.
+- pp on the end screen and in local leaderboards, with sorting by pp.
+
+### Gameplay
+- **Custom speed rates** (DT/HT/NC/DC at any speed) count as ranked and give pp, as does **Mirror**.
+- Star ratings for Relax and Autopilot match normal play.
+- **Uncapped frame-rate** sliders for gameplay and menus.
+
+### Beatmaps
+- **osu!direct** built in, powered by public beatmap mirrors: search, filter by status, sort, preview and download (osu!standard).
+- **Favourites** shared by every profile, with a star in song select.
+- Song select starts sorted and grouped by difficulty.
+
+### Look and feel
+- A black & white **ethereal theme** with optional neon glow.
+- A **black hole** menu background and the eth! **halo logo**.
+- A **Customisation** tab for theme colours, the logo, the menu background, and your own **opening song** and volume.
+
+### Updates
+- eth! **updates itself** from this page. When a new version is out it asks: **Update now**, **See what's new**, or **Remind me later**, never mid-play.
+- An **update indicator** on the toolbar, a **What's new** window after each update, and a toggle for automatic checks.
+
+### Offline and private
+- No global leaderboards, chat, multiplayer, news or links to the osu! website.
+- The only internet use is osu!direct (beatmap mirrors) and checking this page for updates. No crash reporting.
+
+## Install
+
+1. Open the [latest release](https://github.com/nxtethereal/eth-releases/releases) and download **`eth-win-Setup.exe`**.
+2. Run it and pick where to install. The recommended folder is filled in (`%LocalAppData%\eth`), or choose your own, like `C:\eth!`.
+3. If Windows SmartScreen warns about an unrecognised app (the installer isn't code-signed yet), choose **More info → Run anyway**.
+
+Your profiles, scores and settings live in `%APPDATA%\osu-offline`, so updating or reinstalling never touches them.
+
+## Thank you, osu!lazer ♥
+
+eth! exists because **peppy and the osu! team** made osu!lazer open source and support people who build on it. If you enjoy eth!, please support the real thing: [get osu!lazer](https://osu.ppy.sh/home/download).
+
+---
+
+<sub>eth! is not affiliated with, endorsed by or supported by ppy or Akatsuki. "osu!" is a trademark of ppy Pty Ltd. Based on osu!lazer (MIT licence); osu! resources are CC-BY-NC 4.0. Relax pp ported from akatsuki-pp-rs (MIT).</sub>
