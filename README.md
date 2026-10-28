@@ -50,7 +50,21 @@ eth! is osu!lazer reworked to run entirely on your own PC. You play, earn pp and
 
 ### Offline and private
 - No global leaderboards, chat, multiplayer, news or links to the osu! website.
-- The only internet use is osu!direct (beatmap mirrors) and checking this page for updates. No crash reporting.
+- The only internet use is osu!direct (beatmap mirrors) and checking this page for updates. See [Internet use](#internet-use) for the full list.
+
+## Internet use
+
+eth! works offline. It only goes online for the things below, and you can see the same list in the game under **Settings → General → Internet use**. Like any website, these services can see your IP address.
+
+| When | What it talks to | What it sends |
+|---|---|---|
+| **osu!direct**, only while you search, browse or download | Search and beatmap pages: `api.nerinyan.moe` (fallback `catboy.best`)<br>Downloads: `api.nerinyan.moe`, then `catboy.best`, then `osu.direct`<br>Cover pictures: `assets.ppy.sh`<br>Song previews: `b.ppy.sh` | Your search text, filters and beatmap IDs |
+| **Setup wizard**, only if you press "download beatmaps" | The same beatmap mirrors as osu!direct | Beatmap IDs |
+| **Update checks**: on start and every 30 minutes (if automatic checks are on), or when you click check | GitHub: `api.github.com`, `github.com` and GitHub's download servers | A normal request for eth!'s latest release |
+| **Update downloads**, only when you choose **Update now** | GitHub's download servers | Nothing beyond the download request |
+| **Links you click** | Open in your browser, not in eth! (eth!'s GitHub release pages, the osu!lazer download page) | n/a |
+
+**eth! never:** signs in or uses an account, submits scores, connects to osu! game servers, chat or multiplayer, sends analytics, telemetry or crash reports, or sets a Discord status. Your profiles, scores and settings never leave your PC.
 
 ## Install
 
