@@ -14,8 +14,6 @@ Installers and automatic updates for **eth!**, a fully offline fork of osu!lazer
 
 eth! updates itself: it checks for new versions when it starts and offers to restart when one has downloaded. You can also check any time in **Settings → General → Updates**.
 
-Prefer no installer? Download **`eth-win-Portable.zip`**, extract it anywhere and run `osu!.exe` (the portable copy doesn't update itself).
-
 Your profiles, scores and settings are kept in `%APPDATA%\osu-offline`, so reinstalling or updating never touches them.
 
 ## Status
