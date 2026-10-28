@@ -1,1 +1,1 @@
-Latest eth! release: 1.1.0-beta.6
+Latest eth! release: 1.1.0-beta.7
